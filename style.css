@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+
+
+*{
+    margin :0;
+    padding :0;
+}
+
+
+body
+{
+ background-color: antiquewhite;
+}
+
+nav
+{
+    font-family: "Ubuntu", sans-serif;
+    color: aliceblue;;
+}
+
+nav ul
+{
+ background-color: black;
+ display: flex;
+ align-items: center;
+ height: 56px;
+ list-style-type: none;
+}
+
+nav ul li
+{
+  padding: 0 8px;  
+}
+.brand 
+{
+ display: flex;
+ align-items: center;
+ font-weight: bold;
+ font-size: 1.3rem;
+}
+.brand img 
+{
+ width :40px;
+ padding: 0 8px;
+}
+
+.container
+{
+ font-family: 'Verela Round',sans-serif;   
+ min-height: 56vh;
+ background-color: black;
+ color: antiquewhite;
+ display:flex;
+ margin :20px auto;
+ width : 93%;
+ border-radius: 10px;
+ padding :30px;
+ background-image: url("car4.jpg") ;
+ background-size: cover;
+ background-position: bottom;
+ background-repeat: no-repeat;
+}
+
+.bottom
+{
+  position: 'sticky';
+  background-color: black;
+  color: white;
+  bottom:0;
+  height :130px;
+  display: flex ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#myProgressBar
+{
+  width :150vh;  
+  
+}
+
+.icons
+{
+  margin-top: 12px ;
+}
+
+
+.icons svg{
+    width :40px;
+    fill:rgb(29, 116, 214);
+    padding: 0px 10px;
+}
+
+.timeStamp svg{
+   margin: 0;
+   padding: 0;
+   fill:darkslateblue;
+   width :15px; 
+}
+.songItem
+{
+    height :50px;
+    /* width:100%; */
+    margin: 12px 0;
+    display: flex;
+    background-color: antiquewhite;
+    color: black;
+    justify-content: space-between;
+    align-items:center;
+    border-radius: 10px;;
+}
+
+.songItem img
+{
+    width :45px;
+    margin: 0 23px;
+}
+
+.timeStamp
+{
+   margin: 0 10px; 
+}
+
+.songList{
+    display: flex;
+    flex-direction: column;
+}
+
+.timeStamp svg
+{
+    cursor: pointer;
+}
+
+/* .icons img
+{
+    fill:blue;
+    width :40px;
+    color: blueviolet;
+    padding: 0 10px;
+} */
+
+/* figure
+{
+    fill:blue;
+} */
